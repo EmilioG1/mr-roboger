@@ -15,3 +15,11 @@ Expected Output: 0
 Test: "It should index the array and tell if there is a 3 in the input"
 Code: looper(13);
 Expected Output: true
+
+Test: "Turn value to string and push in place of array"
+
+take the number input. store values into an array
+  ie - 10 = 1.....9,10
+from there, iterate through array to find instances of 3 2 or 1
+take those specific instances and replace them wiht beep boop or neighbor
+output array

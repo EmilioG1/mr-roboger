@@ -1,19 +1,31 @@
 // business logic
+// let userIn = input.toString()
+
+// function arrayFinder(val) {
+//   let array = [];
+//   for (let i = 0; i <= val; i++) {
+//     array.push(i)
+//   } if ("3" === array) {
+//     arr2.push(replace(num, "Will you be my neighbor?"))
+//     console.log(num)
+
+//   } 
+//   return array
+// }
+
+
+let rogers = [];
 
 function looper(num) {
   let array = []
-  for(let i = 0; i<= num; i++) {
+  for (let i = 0; i <= num; i++) {
     array.push(i)
-    let strA = array.toString();
-    let stSplit = strA.split(",");
-    console.log(stSplit);
-    if (stSplit.includes("3")) {
-      stSplit.replace("3", "Will you be my neighbor?");
-    // } else if (strA.includes("2")) {
-    //   strA.replace("2", "Boop");
-    // } else if (strA.includes("1")) {
-    //   strA.replace("1", "Beep");
+    let arr2 = array.toString();
+    if (arr2.includes("3")) {
+      rogers.push("Will you be my neighbor?");
     }
   }
-  return array
+  return rogers
 };
+
+// take array, iterate through array find if number is included in array list, take those values and set them to strings, replace strings with words.
