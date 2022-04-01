@@ -1,5 +1,4 @@
 // business logic
-// let userIn = input.toString()
 
 // function arrayFinder(val) {
 //   let array = [];
@@ -14,7 +13,14 @@
 // }
 
 
-
+function noInputtedWord() {
+  for (let i=0; i < arguments.length; i++) {
+    if (arguments[i].trim().length === 0) {
+      return true;
+    }
+  }
+  return false;
+}
 
 function looper(num) {
   let array = []
@@ -37,5 +43,16 @@ function looper(num) {
   return rogers
 };
 
+// ui logic
 
+$(document).ready(function () {
+  $("form#neighbor").submit(function (event) {
+    event.preventDefault();
+    let output = looper("#num");
+    $("#tell").text(output);
+    
+
+
+  });
+});
 // take array, iterate through array find if number is included in array list, take those values and set them to strings, replace strings with words.

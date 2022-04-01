@@ -18,10 +18,40 @@ Expected Output: true
 
 Test: "Turn value to string and push in place of array"
 
-Test: "Push correct values into string up to fiv
+Test: "Push correct values into string up to five"
 
-take the number input. store values into an array
-  ie - 10 = 1.....9,10
-from there, iterate through array to find instances of 3 2 or 1
-take those specific instances and replace them wiht beep boop or neighbor
-output array
+
+# Mr. Robogers Neighborhood
+
+#### By Emilio Gonzales
+
+#### A webpage taking user's number input to return an array with replaced results.
+
+_[Link to GitHub Directory](https://github.com/EmilioG1/mr-roboger.git)_
+
+## Technologies Used
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* JQuery
+
+## Description
+_This is a website that will take a number and return the full numerical array including certain corresponding numbers replaced with different strings._
+
+## Setup/Installation Instructions
+* Clone this repository to your desktop
+* Navigate to the top level of mr-robogers main branch
+* Open index.html in your browser
+
+## Known Bugs
+* Can't get all of the strings to replace
+* Numbers with two or more digits don't change
+* Business logic doesn't connect to UI logic
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+_If you have any issues or questions don't hesitate to contact me on GitHub, and please feel free to add to this code_
+
+Copyright (c) _2022_ _Emilio Gonzales_
