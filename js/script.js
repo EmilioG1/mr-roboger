@@ -1,13 +1,11 @@
 // business logic
 
-function beepBoop(number) {
-  let array = [];
-  array = number;
+function looper(num) {
+  let array = []
+  for(let i = 1; i<= num; i++) {
+    array.push(i)
+  }
   return array
-}
-
-console.log(beepBoop(5))
-
-
+};
 
 // ui logic
