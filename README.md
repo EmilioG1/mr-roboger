@@ -18,6 +18,8 @@ Expected Output: true
 
 Test: "Turn value to string and push in place of array"
 
+Test: "Push correct values into string up to fiv
+
 take the number input. store values into an array
   ie - 10 = 1.....9,10
 from there, iterate through array to find instances of 3 2 or 1
