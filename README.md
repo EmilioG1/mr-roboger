@@ -20,6 +20,8 @@ Test: "Turn value to string and push in place of array"
 
 Test: "Push correct values into string up to five"
 
+Test: "Push correct values including double digits"
+ 
 
 # Mr. Robogers Neighborhood
 
