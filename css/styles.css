@@ -6,13 +6,21 @@ button {
 #tell {
   font-family: monospace;
   font-weight: bolder;
+  border-top: 2px solid black;
 }
 
 #sec {
   background-color: grey;
   text-align: center;
+  margin: 20px 0px 40px 0px;
 }
 
 body {
   background-color: lightgray;
+}
+
+h1:hover {
+  color: white;
+  background-color: black;
+  border: yellow 1px dashed;
 }
