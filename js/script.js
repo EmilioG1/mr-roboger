@@ -11,11 +11,11 @@ function looper(num) {
     let ar = [item]
     ar.forEach(function(char) {
       if(char.includes("3")) {
-        finalArray.push("Won't you be my Neighbor")
+        finalArray.push(" Won't you be my Neighbor")
       } else if(char.includes("2")) {
-        finalArray.push("Boop")
+        finalArray.push(" Boop")
       } else if(char.includes("1")) {
-        finalArray.push("Beep")
+        finalArray.push(" Beep")
       } else {
         finalArray.push(item)
       }
@@ -37,6 +37,5 @@ $(document).ready(function () {
     const robo = $("input#num").val();
     const output = looper(robo);
     $("#tell").text(output);
-    
   });
 });

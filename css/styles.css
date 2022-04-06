@@ -1,0 +1,18 @@
+button {
+  margin-bottom: 20px;
+  border: grey 2px solid;
+}
+
+#tell {
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+#sec {
+  background-color: grey;
+  text-align: center;
+}
+
+body {
+  background-color: lightgray;
+}

@@ -46,10 +46,7 @@ _This is a website that will take a number and return the full numerical array i
 * Navigate to the top level of mr-robogers main branch
 * Open index.html in your browser
 
-## Known Bugs
-* Can't get all of the strings to replace
-* Numbers with two or more digits don't change
-* Business logic doesn't connect to UI logic
+## No Known Bugs
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/)
