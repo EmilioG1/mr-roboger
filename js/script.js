@@ -34,7 +34,8 @@ console.log(looper(100))
 $(document).ready(function () {
   $("form#neighbor").submit(function (event) {
     event.preventDefault();
-    let output = looper("#num");
+    const robo = $("input#num").val();
+    const output = looper(robo);
     $("#tell").text(output);
     
   });
