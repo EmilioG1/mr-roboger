@@ -1,26 +1,33 @@
 // business logic
 
-let rogers = [];
-
 function looper(num) {
   let array = []
-  for (let i = 0; i <= num; i++) {
+  let finalArray = []
+  for(let i = 0; i <= num; i++) {
     array.push(i)
-    let arr2 = array.toString().split(",")
-    arr2.forEach(function (element) {
-      if (arr2.includes("3")) {
-        rogers.push(element.replace("3", "Will you be my neighbor?"));
-      } else if (element.includes("2")) {
-        rogers.push(element.replace("2", "Boop"));
-      } else if (element.includes("1")) {
-        rogers.push(element.replace("1", "Beep"));
-      } else {
-        rogers.push(element)
-      }
-    });
   }
-  return rogers
+  let newArray = array.toString().split(",")
+  newArray.forEach(function(item) {
+    let ar = [item]
+    ar.forEach(function(char) {
+      if(char.includes("3")) {
+        finalArray.push("Won't you be my Neighbor")
+      } else if(char.includes("2")) {
+        finalArray.push("Boop")
+      } else if(char.includes("1")) {
+        finalArray.push("Beep")
+      } else {
+        finalArray.push(item)
+      }
+
+    })
+  })
+  return finalArray
 }
+
+console.log(looper(100))
+
+
 
 // ui logic
 
