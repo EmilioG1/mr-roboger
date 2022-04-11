@@ -16,13 +16,18 @@ Test: "It should index the array and tell if there is a 3 in the input"
 Code: looper(13);
 Expected Output: true
 
-Test: "Turn value to string and push in place of array"
-
-Test: "Push correct values into string up to five"
-
-Test: "Push correct values including double digits"
+Test: "It should return a beep if passed in a number containing a 1"
+Code: looper(10);
+Expected Output: 'Beep'
  
+Test: "It should return a boop if passed in a number containing a 2"
+Code: looper(21);
+Expected Output: 'Boop'
 
+Test: "It should return a 'will you be my neighbor' if passed in a number containing a 3"
+Code: looper(32);
+Expected Output: 'Will you be my neighbor'
+ 
 # Mr. Robogers Neighborhood
 
 #### By Emilio Gonzales
